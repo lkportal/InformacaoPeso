@@ -1,0 +1,10 @@
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\bin\Debug\MedidoPeso.exe.config
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\bin\Debug\MedidoPeso.exe
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\bin\Debug\MedidoPeso.pdb
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.csproj.AssemblyReference.cache
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.Form1.resources
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.Properties.Resources.resources
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.csproj.GenerateResource.cache
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.csproj.CoreCompileInputs.cache
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.exe
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.pdb
