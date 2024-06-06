@@ -10,8 +10,15 @@ using System.Windows.Forms;
 
 namespace MedidoPeso {
     public partial class Informacoes : Form {
-        public Informacoes() {
+
+        private uint IDUsuario;
+        public Informacoes(uint idUsuario) {
             InitializeComponent();
+            this.IDUsuario = idUsuario;
+        }
+
+        private void Informacoes_Load(object sender, EventArgs e) {
+            labelID.Text = IDUsuario.ToString();    
         }
     }
 }

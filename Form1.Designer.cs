@@ -27,10 +27,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtLNome = new System.Windows.Forms.TextBox();
             this.txtCNome = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtLSenha = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -59,7 +59,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(100, 166);
+            this.label2.Location = new System.Drawing.Point(100, 150);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 29);
             this.label2.TabIndex = 1;
@@ -68,12 +68,13 @@
             // btnEntrar
             // 
             this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.Location = new System.Drawing.Point(105, 403);
+            this.btnEntrar.Location = new System.Drawing.Point(105, 328);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(91, 35);
             this.btnEntrar.TabIndex = 2;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnCadastrar
             // 
@@ -86,13 +87,13 @@
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
-            // textBox1
+            // txtLNome
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(36, 220);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(231, 31);
-            this.textBox1.TabIndex = 4;
+            this.txtLNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLNome.Location = new System.Drawing.Point(36, 220);
+            this.txtLNome.Name = "txtLNome";
+            this.txtLNome.Size = new System.Drawing.Size(231, 31);
+            this.txtLNome.TabIndex = 4;
             // 
             // txtCNome
             // 
@@ -111,13 +112,13 @@
             this.txtSenha.Size = new System.Drawing.Size(231, 31);
             this.txtSenha.TabIndex = 10;
             // 
-            // textBox8
+            // txtLSenha
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(36, 281);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(231, 31);
-            this.textBox8.TabIndex = 11;
+            this.txtLSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLSenha.Location = new System.Drawing.Point(36, 281);
+            this.txtLSenha.Name = "txtLSenha";
+            this.txtLSenha.Size = new System.Drawing.Size(231, 31);
+            this.txtLSenha.TabIndex = 11;
             // 
             // label3
             // 
@@ -252,16 +253,16 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtLSenha);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtCNome);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtLNome);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Home";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,10 +274,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Button btnCadastrar;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtLNome;
         private System.Windows.Forms.TextBox txtCNome;
         private System.Windows.Forms.TextBox txtSenha;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtLSenha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;

@@ -8,3 +8,4 @@ D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.csproj
 D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.csproj.CoreCompileInputs.cache
 D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.exe
 D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.pdb
+D:\Documentos\Projetos Geral\medidas_peso\MedidoPeso\obj\Debug\MedidoPeso.Informacoes.resources
